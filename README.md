@@ -44,7 +44,7 @@ To be honest, this is the prototype. The project is still on the go. However, we
 + 👉 Documenting the project.
 
 
-## Gallery
+## 🏆 Gallery
 
 1. Asking the agent to plan a workout plan so that I can achieve a 6 packs. 
 
