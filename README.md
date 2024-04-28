@@ -15,7 +15,7 @@ We aim to provide you 📝:
 
 + **Expert Supplement Advice**: Get informed recommendations on supplements that can enhance your workout performance and recovery. Our LLM analyzes your individual needs and suggests the most effective supplements to complement your fitness routine.
 
-## Usage 
+## 💬 Usage 
 
 To run the project locally, the following conditions must be met, cloning the project and install requirements: 
 
@@ -34,9 +34,9 @@ The project is ready to go by hitting these lines of code:
     python main.py
 ```
 
-## Roadmap
+## 🛤 Roadmap
 
-The project is still on the go 🛤. However, we are planning to: 
+To be honest, this is the prototype. The project is still on the go. However, we are planning to: 
 
 + 👉 Hosting the API so that everyone can use it freely. 
 + 👉 Personalizing plans for each user (RAG, etc.).  
