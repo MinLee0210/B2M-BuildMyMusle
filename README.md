@@ -40,7 +40,6 @@ To be honest, this is the prototype. The project is still on the go. However, we
 
 + 👉 Hosting the API so that everyone can use it freely. 
 + 👉 Personalizing plans for each user (RAG, etc.).  
-+ 👉 Changing our environment; from LangChain to Llama. 
 + 👉 Documenting the project.
 
 
