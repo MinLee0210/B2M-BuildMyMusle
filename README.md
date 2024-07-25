@@ -25,7 +25,6 @@ To run the project locally, the following conditions must be met, cloning the pr
 
 ```
 
-Then, you create an `.env` file in the `app` directory and store the `GEMINI_API_KEY` after you get the API key on [Google AI Studio](https://ai.google.dev/). 
 
 The project is ready to go by hitting these lines of code: 
 
@@ -46,9 +45,10 @@ To be honest, this is the prototype. The project is still on the go. However, we
 
 ## 🏆 Gallery
 
-1. Asking the agent to plan a workout plan so that I can achieve a 6 packs. 
+![](./app/static/workout_plan_req.png)
 
-![Asking the agent to plan a workout plan so that I can achieve a 6 packs.](./app/static/planning_workout.png)
+
+![](./app/static/workout_plan_res.png)
 
 
 ## 📫 How to reach me:
