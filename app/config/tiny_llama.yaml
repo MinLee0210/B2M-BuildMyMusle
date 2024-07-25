@@ -1,0 +1,8 @@
+task: text-generation
+model_id: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+torch_dtype: torch.bfloat16
+device: cpu
+settings: 
+  max_new_tokens: 512
+  do_sample: True
+  temperature: 1.0

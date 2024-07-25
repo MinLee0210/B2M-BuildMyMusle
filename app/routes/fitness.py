@@ -1,17 +1,15 @@
-from fastapi import APIRouter, Request, BackgroundTasks, HTTPException, Depends
+from fastapi import APIRouter, Request, HTTPException, Depends
 from fastapi.responses import JSONResponse
 
-from typing import Union
-from controller import fitness as fn_agent
+from controller.workout_plan import generate_workout_plan
+from b2m.schema import GetWorkoutPlan
 
 fitness_route = APIRouter()
 
-@fitness_route.get('/workout-plan/{fitness_goal}')
-async def get_workout_plan(r: Request, 
-                           fitness_goal: str, 
-                           instruction: Union[str, None]=None): 
+@fitness_route.post('/workout-plan')
+async def get_workout_plan(fitness_goal: GetWorkoutPlan): 
     try: 
-        response = await fn_agent.generate_workout_plan(fitness_goal, instruction)
+        response = await generate_workout_plan(fitness_goal)
         return JSONResponse(content=response,
                             status_code=200)
     except HTTPException as e: 
